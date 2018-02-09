@@ -1,9 +1,10 @@
 # asterisk-install
 
- 1-tar zxvf asterisk
+1- tar zxvf asterisk
 2- sudo -s
 3- apt-get update
 4- apt-get install build-essential wget libssl-dev libncurses5-dev libnewt-dev libxml2-dev linux-headers-$(uname -r) libsqlite3-dev uuid-dev libjansson-dev
+
 5- ./configure
 
 6- make menuconfig
